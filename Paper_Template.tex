@@ -1,0 +1,123 @@
+%
+% Template with ideas from Simon Peyton Jones' "How to Write a Great Research Paper"
+
+% All material for that and related talks can be accessed here: https://www.microsoft.com/en-us/research/people/simonpj/
+%
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+\setcounter{section}{-1}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{How To Write a Great Research Paper}
+
+\author{(Inspired By) Simon Peyton Jones \\
+  Microsoft Research \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   {\tt email@domain} \\
+%   \And
+%   Second Author \\
+%   Affiliation / Address line 1 \\
+%   Affiliation / Address line 2 \\
+%   Affiliation / Address line 3 \\
+%   {\tt email@domain} \\
+  }
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+ The most difficult part of writing a paper is often getting started, especially from a blank slate. In order to get you started writing, we've populated this template not only with section headings, but helpful tidbits from Simon Peyton Jomes' inspirational talk on writing research papers. The full talk can (and \textit{should}) be viewed at \url{https://www.youtube.com/watch?v=g3dkRsTqdDA&t=1618s}.
+\end{abstract}
+
+\section{General Advice}
+\begin{itemize}
+\item Writing is a way of conducting research, rather than the result of research
+\item Narrative Flow
+    \begin{itemize}
+    \item Here is a problem
+    \item  It's an interesting problem
+    \item It's an unsolved problem
+    \item Here is my idea
+    \item My idea works
+    \item How my idea compares to other people's ideas
+    \end{itemize}
+\end{itemize}
+
+\section{Introduction}
+
+\begin{enumerate}
+\item Describe the problem
+    \begin{itemize}
+    \item Provide an example
+    \item If it's just a general observation, people won't be interested enough to read it
+    \item Molehills not mountains
+    \end{itemize}
+\item State your contribution
+    \begin{itemize}
+    \item List them
+    \item Contributions should be refutable
+    \item Rather than outlining sections, contributions should forward-reference sections
+    \item Reader: ``Wow, if they can do that, that's really cool.'' [reads on]
+    \end{itemize}
+\item \dots that's it!
+\end{enumerate}
+
+\section{My Idea}
+
+\begin{itemize}
+\item (At the beginning, at least) Readers do not have the same intuition that the writer has developed
+\item First, convey/explain the intuition
+    \begin{itemize}
+    \item Readers will carry that with them
+    \item Use examples, not a general case
+    \end{itemize}
+\end{itemize}
+
+\section{The Details}
+
+\begin{itemize}
+\item Do not recapitulate your personal journey
+\item Do not spend an inordinate amount of time telling why a prior solution does not work
+\item Show examples of the problem and examples of your solution
+\item How can I explain this so that the stupidest reviewer will understand it?
+\end{itemize}
+
+\section{Related Work}
+
+\begin{itemize}
+\item Should be later in the paper
+\item Can create a barrier in an early section
+\item Can be referenced in prior parts of the paper
+\item Credit other people's work; state what they did; explain your improvement
+\item Praising others' contributions does not diminish your own contributions
+    \begin{itemize}
+    \item It's a good thing to motivate readers to read the same papers that inspired your own work
+    \end{itemize}
+\end{itemize}
+
+
+\end{document}
